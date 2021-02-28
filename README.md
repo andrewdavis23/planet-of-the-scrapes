@@ -15,7 +15,8 @@ Change environment path.
 
 HTML structures - Consider it like a pedagogy - Below, references will be made to "parents" and "children" - Cats and dogs, pending next update.
 
-'''html
+'''
+<html>
   <body>
     <span>
       Content.
@@ -27,7 +28,9 @@ HTML structures - Consider it like a pedagogy - Below, references will be made t
       TARGET
     </div>
   </body>
+</html>
 '''
+
 > xpath = 'html/body/div[2]'
 > xpath.extract()
 > 'TARGET'
