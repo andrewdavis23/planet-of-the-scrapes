@@ -1,7 +1,7 @@
 # planet-of-the-scrapes
 Webscrapes using Python module Scrapy
 
-## Readme
+# Readme
 
 Install module into [virtual enviornment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).  This is recommended by the [creators of scrapy](https://docs.scrapy.org/en/latest/):
 > Instead, we recommend that you install Scrapy within a so-called “virtual environment” (venv). Virtual environments allow you to not conflict with already-installed Python > system packages (which could break some of your system tools and scripts), and still install packages normally with pip (without sudo and the likes).
@@ -22,21 +22,39 @@ $ pip install scrapy
 ```
 
 
-## Notes from [DataCamp course](https://learn.datacamp.com/courses/web-scraping-with-python):
+# Notes from [DataCamp course](https://learn.datacamp.com/courses/web-scraping-with-python):
 
 HTML structures - Consider it like a pedagogy - Below, references will be made to "parents" and "children" - Cats and dogs, pending next update.
 
+## HTML Tree Examples
 ```html
 <html>
   <body>
+    <p>
+      Introductory content.
+    </p
     <span>
-      Content.
+      <div class="nephew">
+        <p>
+          Content.
+        </p>
+        <p>
+          More content.
+        </p>
+      </div>
+      <div>
+      </div class="neice">
     </span>
-    <div>
-      More content.
+    <div class="uncle">
+      <p>
+        This content.
+      </p>
+      <p>
+        That content.
+      </p>
     </div>
-    <div>
-      TARGET
+    <div class="aunt">
+      Important content.
     </div>
   </body>
 </html>
@@ -44,8 +62,17 @@ HTML structures - Consider it like a pedagogy - Below, references will be made t
 ```python
 xpath = 'html/body/div[2]'
 xpath.extract()
-'TARGET'
+'Important content.'
 ```
+Get every paragraph that is a first child.
+```python
+xpath = '//p[1]'
+xpath.extract()
+['Content.','This content.']
+
+```
+## More Xpath Syntax
+
 All table elements within the HTML code
 ```python
 xpath = '//table'
@@ -69,4 +96,35 @@ xpath = 'parent//*'
 All elements in code where id="uid"
 ```
 xpath = '//*[@id="uid"]'
+```
+Get all classes containing the string "class-1" this includes "class-1 class-2" and "class-12"
+```python
+xpath = '//*[contains(@class,"class-1")'
+```
+Get all URLs from HTML code
+```python
+xpath = '//a/@href'
+```
+
+## Scrapy selector
+
+```python
+import urllib.request
+import scrapy
+
+# get webpage
+fp = urllib.request.urlopen("http://www.python.org")
+mybytes = fp.read()
+
+# decode
+html = mybytes.decode("utf8")
+fp.close()
+
+# create selector object
+sel = scrappy.Selector(text=html)
+
+# extract the CSS body containing the news headlines
+trees = sel.xpath('//*[contains(@role,"treeitem")]').extract()
+
+print(trees[0:2])
 ```
