@@ -40,11 +40,11 @@ HTML structures - Consider it like a pedagogy - Below, references will be made t
   </body>
 </html>
 ```
-
-> xpath = 'html/body/div[2]'
-> xpath.extract()
-> 'TARGET'
-
+```python
+xpath = 'html/body/div[2]'
+xpath.extract()
+'TARGET'
+```
 All table elements within the HTML code
 ```python
 xpath = '//table'
@@ -53,7 +53,7 @@ All tables in the 2nd div child
 ```python
 xpath = 'html/body/div[2]//table'
 ```
-All <span> elements where the class attribute is set to "some-class"
+All span elements where the class attribute is set to "some-class"
 ```python
 xpath = '//span[@class = "some-class"]'
 ```
