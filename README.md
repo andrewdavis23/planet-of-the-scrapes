@@ -6,11 +6,13 @@ Webscrapes using Python module Scrapy
 Install module into virtual enviornment.  This is recommended by the creators because their module can interfere with other modules.
 Also, failure to import the installed scrapy module is common. A virtual environment is a solution.
 
+> # Navigate to the location where you want your virtual environment
 > python3 -m venv scrapYard-env
-
-Change environment path.
-
-> pip install scrapy ???? <--This isn't working
+> 
+> # Change environment path to new location.
+> 
+> # Install scrapy to environment library (not working)
+> pip install scrapy
 
 
 
