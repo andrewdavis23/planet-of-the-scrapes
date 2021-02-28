@@ -13,6 +13,9 @@ Install module into [virtual enviornment](https://packaging.python.org/guides/in
 ```cmd
 $ python3 -m venv scrapYard-env
 ```
+```cmd
+$ python3 -m venv C:\Users\nuajd15\Documents\scrapers 
+```
 
 3. Change environment path to new location. In VS Code: CTRL + SHIFT + P, type "Python: Select Interpretor". Navigate to virtual environment, select PYTHON.EXE.
 4. Install scrapy to environment library (not working) 
