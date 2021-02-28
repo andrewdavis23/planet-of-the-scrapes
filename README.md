@@ -59,6 +59,7 @@ HTML structures - Consider it like a pedagogy - Below, references will be made t
   </body>
 </html>
 ```
+Get second div-child of body.
 ```python
 xpath = 'html/body/div[2]'
 xpath.extract()
