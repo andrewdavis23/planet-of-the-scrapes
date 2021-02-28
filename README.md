@@ -1,8 +1,7 @@
 # planet-of-the-scrapes
+Webscrapes using Python module Scrapy
 
 ## Readme
-
-Webscrapes using Python module Scrapy
 
 Install module into virtual enviornment.  This is recommended by the creators because their module can interfere with other modules.
 Also, failure to import the installed scrapy module is common. A virtual environment is a solution.
