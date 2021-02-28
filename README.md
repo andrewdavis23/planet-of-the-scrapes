@@ -7,9 +7,15 @@ Install module into virtual enviornment.  This is recommended by the creators be
 Also, failure to import the installed scrapy module is common. A virtual environment is a solution.
 
 - Navigate to the location where you want your virtual environment.
-- Creat the virutal environment '''$ python3 -m venv scrapYard-env'''.
+- Create the virutal environment. 
+'''
+$ python3 -m venv scrapYard-env
+'''
 - Change environment path to new location.
-- Install scrapy to environment library (not working) '''$ pip install scrapy'''
+- Install scrapy to environment library (not working) 
+'''
+$ pip install scrapy
+'''
 
 
 ## Notes from DataCamp course:
