@@ -3,8 +3,9 @@ Webscrapes using Python module Scrapy
 
 ## Readme
 
-Install module into virtual enviornment.  This is recommended by the creators because their module can interfere with other modules.
-Also, failure to import the installed scrapy module is common. A virtual environment is a solution.
+Install module into [virtual enviornment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).  This is recommended by the [creators of scrapy](https://docs.scrapy.org/en/latest/):
+> Instead, we recommend that you install Scrapy within a so-called “virtual environment” (venv). Virtual environments allow you to not conflict with already-installed Python > system packages (which could break some of your system tools and scripts), and still install packages normally with pip (without sudo and the likes).
+> Also, failure to import the installed scrapy module is common. A virtual environment is a solution.
 
 - Navigate to the location where you want your virtual environment.
 - Create the virutal environment. 
@@ -21,7 +22,7 @@ $ pip install scrapy
 ```
 
 
-## Notes from DataCamp course:
+## Notes from [DataCamp course](https://learn.datacamp.com/courses/web-scraping-with-python):
 
 HTML structures - Consider it like a pedagogy - Below, references will be made to "parents" and "children" - Cats and dogs, pending next update.
 
