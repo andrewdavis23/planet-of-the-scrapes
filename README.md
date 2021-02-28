@@ -14,7 +14,7 @@ Change environment path.
 ## Notes from DataCamp course:
 
 HTML structures - Consider it like a pedagogy - Below, references will be made to "parents" and "children" - Cats and dogs, pending next update.
-
+'''
 <html>
   <body>
     <span>
@@ -28,7 +28,7 @@ HTML structures - Consider it like a pedagogy - Below, references will be made t
     </div>
   </body>
 </html>
-
+'''
 > xpath = 'html/body/div[2]'
 > xpath.extract()
 > 'TARGET'
