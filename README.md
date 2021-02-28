@@ -24,7 +24,7 @@ $ pip install scrapy
 
 # Notes from [DataCamp course](https://learn.datacamp.com/courses/web-scraping-with-python):
 
-HTML structures - Consider it like a pedagogy - Below, references will be made to "parents" and "children" - Cats and dogs, pending next update.
+HTML structures - Consider it a family tree - Below, references will be made to "parents" and "children" - Cats and dogs, pending next update.
 
 ## HTML Tree Examples
 ```html
