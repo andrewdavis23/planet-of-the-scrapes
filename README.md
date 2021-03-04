@@ -135,3 +135,24 @@ trees = sel.xpath('//*[contains(@role,"treeitem")]').extract()
 
 print(trees[0:2])
 ```
+
+## CSS
+```python
+# Create the XPath string equivalent to the CSS Locator 
+xpath = '/html/body/span[1]//a'
+
+# Create the CSS Locator string equivalent to the XPath
+css_locator = html > body > span:nth-of-type(1) a
+```
+```python
+# Create the XPath string equivalent to the CSS Locator 
+xpath = '//div[@id="uid"]/span//h4'
+
+# Create the CSS Locator string equivalent to the XPath
+css_locator = 'div#uid > span h4'
+```
+```python
+# Create the CSS Locator to all children of the element whose id is uid
+css_locator = '#uid > *'
+```
+
