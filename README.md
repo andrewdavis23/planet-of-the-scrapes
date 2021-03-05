@@ -175,9 +175,17 @@ css_locator = 'p#p3 ::text'
 # Print the text from our selections
 print_results( xpath, css_locator )
 ```
-Table
-|123|456|
-|---|---|
+A useful difference:
+```python
+css = 'html > body > div#uid > p.class1'
+xp1 = '/html/body/div[@id="uid"]/p[contains(@class,"class1")]'
+xp2 = '/html/body/div[@id="uid"]/p[@class = "class1"]'
+```
+|css|xp1|xp2|
+|---|---|---|
+| + class="**class 1**"| + class="<ins>class 1</ins> class2"| + class="<ins>class 1</ins>"|
+| + class="**class 1** class2"| + class="<ins>class 1</ins> class2"| x class="class 1 class2"|
+| x class="class 12"| + class="<ins>class 1</ins>2"| x class="class12"|
 
 ## Response vs. Selector
 same thang, except response keeps track of the URL used:
