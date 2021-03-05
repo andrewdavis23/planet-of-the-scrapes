@@ -155,4 +155,32 @@ css_locator = 'div#uid > span h4'
 # Create the CSS Locator to all children of the element whose id is uid
 css_locator = '#uid > *'
 ```
+```python
+# Create an XPath string to the desired text.
+xpath = '//p[@id="p3"]/text()'
+
+# Create a CSS Locator string to the desired text.
+css_locator = 'p#p3::text'
+
+# Print the text from our selections
+print_results( xpath, css_locator )
+```
+```python
+# Create an XPath string to the desired text.
+xpath = '//p[@id="p3"]//text()'
+
+# Create a CSS Locator string to the desired text.
+css_locator = 'p#p3 ::text'
+
+# Print the text from our selections
+print_results( xpath, css_locator )
+```
+## Response vs. Selector
+same thang, except response keeps track of the URL used:
+```python
+response.url
+>>> 'http://www.DataCamp.com/courses/all'
+# next_url is the string path of the next URL we want to scrape
+response.follow(next_url)
+```
 
