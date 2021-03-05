@@ -175,6 +175,10 @@ css_locator = 'p#p3 ::text'
 # Print the text from our selections
 print_results( xpath, css_locator )
 ```
+Table
+|123|456|
+|---|---|
+
 ## Response vs. Selector
 same thang, except response keeps track of the URL used:
 ```python
