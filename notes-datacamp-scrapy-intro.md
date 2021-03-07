@@ -1,4 +1,4 @@
-# Notes from [DataCamp course](https://learn.datacamp.com/courses/web-scraping-with-python):
+# Notes from [DataCamp course](https://learn.datacamp.com/courses/web-scraping-with-python) Web Scraping in Python:
 
 HTML structures - Consider it a family tree - Below, references will be made to "parents" and "children" - Cats and dogs, pending next update.
 
