@@ -29,3 +29,13 @@ ferrari.show()  # same output as car.show(ferrari)
 # that method call like car.show(audi) 
 ```
 [web source](https://www.geeksforgeeks.org/self-in-python-class/)
+
+Beautiful Soup - HTML Tree
+```python3
+from bs4 import BeautifulSoup
+
+s = BeautifulSoup(html_doc)
+ps = s.prettify()
+fs = print(ps)
+fs
+```
