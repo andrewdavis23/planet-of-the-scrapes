@@ -1,7 +1,11 @@
-# planet-of-the-scrapes 🙈 🙉 🙊 🗽
-- course notes
-- how to's and examples
-- some of my web scrapers
+# Repository Directory 🙈 🙉 🙊 🗽
+
+# Notes
+[Intro to Webscraping](notes-datacamp-scrapy-intro.md)
+[Other Notes](notes-other.md)
+
+# Functioning scrapers
+[DataCamp courses example](dc-courses-crawler)
 
 # How to Install Scrapy
 
