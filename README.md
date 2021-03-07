@@ -3,7 +3,7 @@
 - how to's and examples
 - some of my web scrapers
 
-# Readme
+# How to Install Scrapy
 
 Install module into [virtual enviornment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#installing-virtualenv).  This is recommended by the [creators of scrapy](https://docs.scrapy.org/en/latest/):
 > Instead, we recommend that you install Scrapy within a so-called “virtual environment” (venv). Virtual environments allow you to not conflict with already-installed Python > system packages (which could break some of your system tools and scripts), and still install packages normally with pip (without sudo and the likes).
