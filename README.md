@@ -1,11 +1,11 @@
 # Repository Directory 🙈 🙉 🙊 🗽
 
 # Notes
-[Intro to Webscraping](notes-datacamp-scrapy-intro.md)
-[Other Notes](notes-other.md)
+    - [Intro to Webscraping](notes-datacamp-scrapy-intro.md)
+    - [Other Notes](notes-other.md)
 
 # Functioning scrapers
-[DataCamp courses example](dc-courses-crawler)
+    - [DataCamp courses example](dc-courses-crawler)
 
 # How to Install Scrapy
 
