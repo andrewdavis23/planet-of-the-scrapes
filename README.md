@@ -1,4 +1,4 @@
-# Repository Directory 🙈 🙉 🙊 🗽
+# Repository Directory 🙈 🙉 🗽 🙊
 
 # Notes
    - [Intro to Webscraping](notes-datacamp-scrapy-intro.md)
