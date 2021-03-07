@@ -1,5 +1,7 @@
 # planet-of-the-scrapes 🙈 🙉 🙊 🗽
-Webscrapes using Python module Scrapy
+- course notes
+- how to's and examples
+- some of my web scrapers
 
 # Readme
 
