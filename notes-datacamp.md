@@ -166,7 +166,7 @@ response.url
 response.follow(next_url)
 ```
 
-## Basic Crawler
+## Basic Crawler - [source](https://campus.datacamp.com/courses/web-scraping-with-python/spiders?ex=11)
 This example downloads creates a dictionary where keys are course names and each value is a list of chapters.
 ```python
 # Import scrapy
