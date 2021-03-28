@@ -7,6 +7,7 @@
 
 ## Functioning scrapers
    - [DataCamp courses example](dc-courses-crawler)
+   - [Mutual Funds Initial Investments](boomer-egg-initial-investments)
 
 ## How to Install Scrapy
 
@@ -14,7 +15,7 @@ Install module into [virtual enviornment](https://packaging.python.org/guides/in
 > Instead, we recommend that you install Scrapy within a so-called “virtual environment” (venv). Virtual environments allow you to not conflict with already-installed Python > system packages (which could break some of your system tools and scripts), and still install packages normally with pip (without sudo and the likes).
 > Also, failure to import the installed scrapy module is common. A virtual environment is a solution.
 
-1. Navigate to the location where you want your virtual environment. I call my scrapYard
+1. Navigate to the location where you want your virtual environment. I call mine scrapYard.
 2. Create the virutal environment. 
 
 ```cmd
