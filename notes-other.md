@@ -30,7 +30,7 @@ ferrari.show()  # same output as car.show(ferrari)
 # that method call like car.show(audi) 
 ```
 
-Beautiful Soup - HTML Tree
+### Beautiful Soup - HTML Tree
 ```python3
 from bs4 import BeautifulSoup
 
