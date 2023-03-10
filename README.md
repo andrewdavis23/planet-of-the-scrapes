@@ -24,7 +24,7 @@ python3 -m venv C:\...\scrapYard
 
 3. Change environment path to new location. In VS Code: CTRL + SHIFT + P, type "Python: Select Interpretor". Navigate to virtual environment folder (scrapYard > Scripts > python.exe).
 
-4. Install scrapy to environment library. For some reason, I had to force pip to install to virtual environment.
+4. Install scrapy to environment library. The target is where pip will install the virtual environment.
 
 ```cmd 
 pip install --target=C:\...\scrapYard\Lib\site-packages scrapy
