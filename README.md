@@ -5,9 +5,9 @@
    - [Intro to Webscraping](notes-datacamp-scrapy-intro.md)
    - [Other Notes](notes-other.md)
 
-## Functioning scrapers
+## Web Scrapers
    - [DataCamp courses example](dc-courses-crawler)
-   - [Mutual Funds Initial Investments](boomer-egg-initial-investments)
+   - [Mutual Funds](https://github.com/andrewdavis23/boomer-eggs)
 
 ## How to Install Scrapy
 
