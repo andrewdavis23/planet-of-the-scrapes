@@ -27,7 +27,7 @@ python3 -m venv C:\Python Projects\scrapYard
 4. Install scrapy to environment library. The target is where pip will install the virtual environment.
 
 ```cmd 
-pip install --target=C:\Python Projects\scrapYard\Programs\scrapYard\Lib\site-packages> scrapy
+pip install --target=C:\Python Projects\scrapYard\Programs\scrapYard\Lib\site-packages scrapy
 ```
 5. To verify the package is installed go to the interpreter (virtual environment > Scripts > python.exe).  View scrapy or all modules:
 
