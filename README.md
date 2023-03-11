@@ -19,7 +19,7 @@ Install module into [virtual enviornment](https://packaging.python.org/guides/in
 2. Create the virutal environment. 
 
 ```cmd
-python3 -m venv C:\Python Projects\scrapYard
+python3 -m venv C:\"Python Projects"\scrapYard
 ```
 
 3. Change environment path to new location. In VS Code: CTRL + SHIFT + P, type "Python: Select Interpretor". Navigate to virtual environment folder (scrapYard > Scripts > python.exe).
@@ -27,7 +27,7 @@ python3 -m venv C:\Python Projects\scrapYard
 4. Install scrapy to environment library. The target is where pip will install the virtual environment.
 
 ```cmd 
-pip install --target=C:\Python Projects\scrapYard\Programs\scrapYard\Lib\site-packages scrapy
+pip install --target=C:\"Python Projects"\scrapYard\Programs\scrapYard\Lib\site-packages scrapy
 ```
 5. To verify the package is installed go to the interpreter (virtual environment > Scripts > python.exe).  View scrapy or all modules:
 
