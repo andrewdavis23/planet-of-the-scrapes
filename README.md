@@ -8,6 +8,7 @@
 ## Web Scrapers
    - [DataCamp courses example](dc-courses-crawler)
    - [Mutual Funds](https://github.com/andrewdavis23/boomer-eggs)
+   - [ETFs (Uses Threading)](etf-scrape)
 
 ## How to Install Scrapy
 
