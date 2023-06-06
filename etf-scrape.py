@@ -2,7 +2,6 @@ import urllib.request
 import scrapy
 import pandas as pd
 import concurrent.futures
-import re
 from datetime import datetime
 
 start_time = datetime.now()
